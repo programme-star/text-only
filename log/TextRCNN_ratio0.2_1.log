@@ -1,0 +1,25 @@
+2022-07-28 20:34:54 INFO     log save at : log\TextRCNN_ratio0.2_1.log
+2022-07-28 20:34:54 INFO     Namespace(batch_size=256, data_ratio=0.2, device=device(type='cpu'), dropout=0.8, embed_size=128, es_epoch=5, hidden_size=128, log_save='log', lr=0.001, max_len=None, model_name='TextRCNN', num_classes=2, num_epoch=100, num_layers=3, run_time=0, test_data='data/test_data_1.txt', train_data='data/train_data_1.txt', voc_path='data/voc_dict_1.txt', voc_size=1002)
+2022-07-28 20:34:54 INFO     train size: 450 test size: 50
+2022-07-28 20:35:23 INFO     Epoch:1 [29.5s] train loss: 0.6570
+2022-07-28 20:35:26 INFO     test acc: 0.8800 test loss: 0.5809
+2022-07-28 20:35:26 INFO     Evaluation time: 2.1s
+2022-07-28 20:36:01 INFO     Epoch:2 [35.7s] train loss: 0.5357
+2022-07-28 20:36:04 INFO     test acc: 0.9000 test loss: 0.5035
+2022-07-28 20:36:04 INFO     Evaluation time: 2.2s
+2022-07-28 20:36:34 INFO     Epoch:3 [30.3s] train loss: 0.4833
+2022-07-28 20:36:36 INFO     test acc: 0.9000 test loss: 0.4550
+2022-07-28 20:36:36 INFO     Evaluation time: 1.9s
+2022-07-28 20:37:06 INFO     Epoch:4 [30.0s] train loss: 0.4594
+2022-07-28 20:37:08 INFO     test acc: 0.9000 test loss: 0.4266
+2022-07-28 20:37:08 INFO     Evaluation time: 2.0s
+2022-07-28 20:37:39 INFO     Epoch:5 [31.5s] train loss: 0.4578
+2022-07-28 20:37:42 INFO     test acc: 0.9000 test loss: 0.4159
+2022-07-28 20:37:42 INFO     Evaluation time: 2.3s
+2022-07-28 20:38:15 INFO     Epoch:6 [33.5s] train loss: 0.4559
+2022-07-28 20:38:17 INFO     test acc: 0.9000 test loss: 0.4140
+2022-07-28 20:38:17 INFO     Evaluation time: 2.2s
+2022-07-28 20:38:49 INFO     Epoch:7 [32.0s] train loss: 0.4571
+2022-07-28 20:38:51 INFO     test acc: 0.9000 test loss: 0.4136
+2022-07-28 20:38:51 INFO     Evaluation time: 2.1s
+2022-07-28 20:38:51 INFO     Early stopping is trigger at epoch: 2 best acc:0.9000
